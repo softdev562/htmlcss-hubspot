@@ -13,57 +13,62 @@
 
 /* debug */
 body {
-background-color: red;
+/* background-color: red; */
+font-family: sans-serif;
 }
 /* fine debug */
 
 /* contenitore */
 .container {
-  margin: 0 auto;
-  font-family: sans-serif;}
+  }
   /* debug
   background-color: green;
   min-height: 400px;
   /* fine debug
 
-/* intestazione */
+/* barra login */
 
-
+nav {
+border-bottom: 2px solid black;
+}
 
 .menu {
   background-color: #ccccff;
   position: relative;
-  font-weight: bold;
   padding: 10px 0 10px 0;
-  border-bottom: 2px solid black;
-  min-height: 80px;
-
-
+  height: 100%;
   /* debug */
 
   /* fine debug */
 }
 
-.menu.sinistra {
-  margin-left: 70px;
-  position: absolute;
-  top: 0;
-  left: 0;
+.menu.left, header {
+ margin-left: 80px;
 }
 
-.menu.destra {
+header {
+position: relative;
+/* debug */
+/* background-color: yellow; */
+min-height: 200px;
+/* fine debug */
+}
+
+.menu.right, .actions {
   position: absolute;
   top: 0;
   right: 0;
   font-weight: normal;
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
- li,a {
+ li, a {
    display: inline-block;
    text-decoration: none;
    list-style: none;
    color: black;
+   padding-right: 10px;
+   padding-top: 5px;
 }
 
 i {
@@ -86,6 +91,21 @@ i {
   color: white;
   padding: 10px;
 }
+
+/* menu di navigazione */
+.logo {
+  padding-top: 5px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url("../img/jumbotron.png");
+  background-size: auto;
+  height: 700px;
+  margin-left: -80px;
+}
+
 /* sezione centrale */
 
 
