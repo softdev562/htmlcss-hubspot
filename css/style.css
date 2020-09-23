@@ -1,0 +1,92 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* debug */
+body {
+background-color: red;
+}
+/* fine debug */
+
+/* contenitore */
+.container {
+  margin: 0 auto;
+  font-family: sans-serif;}
+  /* debug
+  background-color: green;
+  min-height: 400px;
+  /* fine debug
+
+/* intestazione */
+
+
+
+.menu {
+  background-color: #ccccff;
+  position: relative;
+  font-weight: bold;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid black;
+  min-height: 80px;
+
+
+  /* debug */
+
+  /* fine debug */
+}
+
+.menu.sinistra {
+  margin-left: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu.destra {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: normal;
+  margin-right: 50px;
+}
+
+ li,a {
+   display: inline-block;
+   text-decoration: none;
+   list-style: none;
+   color: black;
+}
+
+i {
+  color: #1ad1ff;
+  padding-right: 10px;
+}
+
+.login {
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  background-color: white;
+  color: #ff7a59;
+  padding: 10px;
+}
+
+.CTA {
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  background-color: #ff7a59;
+  color: white;
+  padding: 10px;
+}
+/* sezione centrale */
+
+
+/* footer */
