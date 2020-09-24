@@ -173,12 +173,13 @@ li i {
   border: 1px solid lightgrey;
   margin: 20px 1px;
   text-align: center;
-  height: 600px;
+  min-height: 600px;
   padding: 20px;
 }
 
 .box-hub img {
-  width: 130px;
+  height: 160px;
+  width: auto;
 }
 
 .feature li  {
@@ -213,12 +214,44 @@ li i {
 }
 
 .figures-coloumn img {
-  width: 120px;
-  height: auto;
+  height: 100px;
+  width: auto;
+}
+
+.figures-coloumn i {
+  font-size: 40px;
 }
 
 .figures-coloumn h2 {
 font-size: 40px;
 }
 
+/* blocco clienti */
+.customer-container {
+  min-height: 200px;
+}
+
+.customer-container section:first-child {
+  width: 30%;
+  float: left;
+  padding: 2% 6%;
+}
+
+section.loghi {
+  width: 50%;
+  min-height: 400px;
+  float: left;
+  padding: 20px;
+
+}
+
+.loghi img:last-child  {
+  width: 50%;
+  height: auto;
+  
+
+
+
+
+}
 /* footer */
