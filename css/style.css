@@ -63,7 +63,7 @@ min-height: 200px;
   padding-right: 40px;
 }
 
- li, a {
+  li, a {
    display: inline-block;
    text-decoration: none;
    list-style: none;
@@ -242,16 +242,47 @@ section.loghi {
   min-height: 400px;
   float: left;
   padding: 20px;
-
 }
 
 .loghi img:last-child  {
   width: 50%;
   height: auto;
-  
-
-
-
-
 }
 /* footer */
+
+footer {
+  background-color: #33475b;
+  min-height: 200px;
+}
+
+.footer-column {
+  color: white;
+  padding: 20px;
+  float: left;
+  width: calc((100% / 4) - 4px);
+}
+
+.footer-container {
+  border-bottom: 1px solid white;
+}
+
+.footer-column li {
+  display: block;
+  color: white;
+}
+
+.CTA.white {
+  background-color: white;
+  color: #33475b;
+  border: 1px solid white;
+}
+
+.social li {
+  display: inline-block;
+  color: white;
+}
+
+.social i {
+  color: white;
+  font-size: 20px;
+}
