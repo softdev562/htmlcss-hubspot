@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
   display: table;
   content: "";
   clear: both;
@@ -140,6 +140,10 @@ p {
 .white-box, .hub-container {
   width: 90%;
   margin: 0 auto;
+}
+
+.white-box, .box-hub
+{
   background-color: white;
   border: 1px solid lightgrey;
   box-shadow: 1px;
@@ -189,5 +193,17 @@ li i {
 .feature h4
 {
  padding: 15px 0;
+}
+
+/* box azzurro */
+.lightblue-box {
+  background-color: #00a4bd;
+  color: white;
+  padding: 20px;
+}
+
+.figures-coloumn {
+  float: left;
+  width: calc((100% / 4) - 1px);
 }
 /* footer */
