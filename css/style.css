@@ -204,6 +204,21 @@ li i {
 
 .figures-coloumn {
   float: left;
-  width: calc((100% / 4) - 1px);
+  width: calc((100% / 4) - 2px);
+  border-left: 1px solid white;
 }
+
+.figures-table div:first-child {
+  border-left: 0px;
+}
+
+.figures-coloumn img {
+  width: 120px;
+  height: auto;
+}
+
+.figures-coloumn h2 {
+font-size: 40px;
+}
+
 /* footer */
