@@ -34,7 +34,7 @@ margin-top: 20px;
 }
 
 .menu {
-  background-color: #ccccff;
+  background-color: #e5f5f8;
   position: relative;
   padding: 10px 0 10px 0;
   height: 100%;
@@ -43,7 +43,7 @@ margin-top: 20px;
   /* fine debug */
 }
 
-.menu.left, header, h1 {
+.menu.left, header, .text-jumbotron {
  margin-left: 80px;
 }
 
@@ -110,12 +110,43 @@ i {
   position: relative;
 }
 
+.text-jumbotron {
+width: 45%;
+}
+
 h1 {
   font-size: 60px;
-  position: absolute;
-  top: 40px;
+  padding: 25px 0;
+}
+
+p {
+  padding: 25px 0;
 }
 /* sezione centrale */
 
+.contenitore-centrale {
+  text-align: center;
+  background-color: #e5f5f8;
+}
+
+div:only-child img
+{
+  width: 126px;
+  height: auto;
+  padding: 15px 0;
+}
+
+.white-box {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid lightgrey;
+  box-shadow: 1px;
+}
+
+.learn-more {
+  float: left;
+  padding-left: 10%;
+}
 
 /* footer */
