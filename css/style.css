@@ -15,6 +15,11 @@ body {
 font-family: sans-serif;
 }
 
+a.CTA:hover {
+  background-color: #ffc7ac;
+  border: #f5c78e;
+}
+
 /* barra login e scelta lingue */
 
 .container > nav {
@@ -178,12 +183,12 @@ li i {
   text-align: center;
 }
 
-.feature h4
-{
+.feature h4 {
  padding: 15px 0;
 }
 
 /* box azzurro */
+
 .lightblue-box {
   background-color: #00a4bd;
   color: white;
@@ -214,9 +219,14 @@ font-size: 40px;
 }
 
 /* blocco clienti */
+
 .customer-container {
   min-height: 200px;
   background-color: white;
+}
+
+.text > h2 {
+  font-size: 40px;
 }
 
 .customer-container section:first-child {
@@ -266,6 +276,11 @@ footer {
   color: #33475b;
   border: 1px solid white;
   padding: 10px;
+}
+
+a.CTA.white:hover {
+  background-color: white;
+  color: #33475b;
 }
 
 .social li {
