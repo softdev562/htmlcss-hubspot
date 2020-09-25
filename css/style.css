@@ -286,3 +286,24 @@ footer {
   color: white;
   font-size: 20px;
 }
+
+.language {
+  text-align: center;
+}
+
+.language li {
+  color: white;
+}
+
+.credits {
+  color: white;
+  float: left;
+}
+
+.credits, .privacy li {
+  color: white;
+}
+
+.privacy {
+  float: right;
+}
