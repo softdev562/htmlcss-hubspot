@@ -15,31 +15,14 @@ body {
 font-family: sans-serif;
 }
 
-
-/* barra login */
+/* barra login e scelta lingue */
 
 .container > nav {
 border-bottom: 2px solid black;
 }
 
 .menu {
-  line-height: normal;
   background-color: #e5f5f8;
-  position: relative;
-  padding: 10px 60px;
-}
-
-
-/* .menu.left, header, .text-jumbotron {
- margin-left: 80px;
-} */
-
-header {
-position: relative;
-/* debug */
-/* background-color: yellow; */
-min-height: 300px;
-/* fine debug */
 }
 
 .menu.left {
@@ -49,22 +32,17 @@ min-height: 300px;
 .menu.right {
   float: right;
 }
-/* .menu.right, .actions {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-weight: normal;
-  padding-right: 40px;
-} */
+
+.menu.left, .menu.right {
+  padding: 15px 120px;
+}
 
   li, a {
    color: black;
    display: inline-block;
    text-decoration: none;
    list-style: none;
-   padding-right: 10px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding: 10px 10px 10px 0;
 }
 
 .menu.right i {
@@ -76,7 +54,8 @@ min-height: 300px;
   color: black;
   padding: 0 2px;
 }
-.login {
+
+#login {
   border: 1px solid #ff7a59;
   border-radius: 5px;
   background-color: white;
@@ -95,10 +74,9 @@ min-height: 300px;
 /* menu di navigazione */
 #logo {
   float: left;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 120px;
-  /* padding-top: 15px;
-  padding-bottom: 15px; */
+
 }
 
 #options {
@@ -110,14 +88,13 @@ min-height: 300px;
   color: black;
   padding: 0 2px;
 }
+
 /* jumbotron */
 
 .jumbotron {
   background-image: url("../img/jumbotron.png");
   background-size: auto;
-  height: 700px;
-  /* margin-left: -80px; */
-  position: relative;
+  min-height: 700px;
 }
 
 .text-jumbotron {
@@ -127,10 +104,9 @@ padding-left: 120px;
 
 h1 {
   font-size: 60px;
-  padding: 25px 0;
 }
 
-p {
+p, h1 {
   padding: 25px 0;
 }
 
@@ -225,7 +201,7 @@ li i {
 }
 
 .figures-coloumn img {
-  height: 100px;
+  height: 60px;
   width: auto;
 }
 
@@ -240,6 +216,7 @@ font-size: 40px;
 /* blocco clienti */
 .customer-container {
   min-height: 200px;
+  background-color: white;
 }
 
 .customer-container section:first-child {
@@ -258,6 +235,12 @@ section.loghi {
 .loghi img:last-child  {
   width: 50%;
   height: auto;
+}
+
+.loghi img {
+  height: auto;
+  width: 150px;
+  padding: 10px;
 }
 
 
@@ -326,4 +309,9 @@ footer a {
 .privacy {
   float: right;
   padding: 20px 60px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: lightblue;
 }
