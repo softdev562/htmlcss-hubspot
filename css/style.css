@@ -15,15 +15,10 @@ body {
 font-family: sans-serif;
 }
 
-a.CTA:hover {
-  background-color: #ffc7ac;
-  border: #f5c78e;
-}
-
 /* barra login e scelta lingue */
 
 .container > nav {
-border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .menu {
@@ -76,12 +71,16 @@ border-bottom: 2px solid black;
   padding: 10px;
 }
 
+a.CTA:hover {
+  background-color: #ffc7ac;
+  border: #f5c78e;
+}
+
 /* menu di navigazione */
 #logo {
   float: left;
   padding-top: 15px;
   padding-left: 120px;
-
 }
 
 #options {
@@ -236,15 +235,17 @@ font-size: 40px;
 }
 
 section.loghi {
-  width: 50%;
+  width: 55%;
   min-height: 400px;
   float: left;
   padding: 20px;
 }
 
 .loghi img:last-child  {
-  width: 50%;
+  width: 40%;
   height: auto;
+  float: right;
+  padding-top: 50px;
 }
 
 .loghi img {
@@ -258,6 +259,7 @@ section.loghi {
 
 footer {
   background-color: #33475b;
+  text-align: center;
 }
 
 .footer-column {
