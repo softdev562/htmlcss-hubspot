@@ -6,19 +6,33 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
+
+
   <body>
     <!-- contenitore -->
       <div class="container">
 
-          <!-- barra login -->
-          <nav class="menu">
+          <!-- barra login e scelta lingue -->
+
+            <!-- barra sinistra -->
+          <nav class="menu clearfix">
             <div class="menu left">
               <ul>
-                <li><a href="#"> English |</a></li>
-                <li><a href="#"> Contact us </a></li>
+                <li>
+                  <i class="fas fa-globe-africa">
+                  </i>
+                  <a href="#"> English
+                    <a href="#">
+                      <i class="fa fa-caret-down" aria-hidden="true">
+                      </i>
+                    </a>|
+                  </a>
+                </li>
+                <li><a href="#">Contact us</a></li>
               </ul>
             </div>
 
+              <!-- barra destra -->
             <div class="menu right">
               <ul>
                 <i class="fa fa-search" aria-hidden="true"></i>
@@ -26,24 +40,66 @@
                 <li><a href="#" class="CTA">GetHubspotFree</a></li>
               </ul>
             </div>
-          </section>
-        </nav>
+          </nav>
+  <!-- fine barra login e scelta lingue -->
 
       <!-- intestazione -->
       <header>
+
         <!-- menu di navigazione -->
-        <div class="logo">
+      <nav class="clearfix">
+        <div id="logo">
           <img src="img/logo.svg" alt="logo Hubspot">
         </div>
-        <div class="actions">
+        <div id="options">
           <ul>
-            <li><a href="#">Software</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">About</a></li>
+            <li>
+              <a href="#">Software
+                <a href="#">
+                  <i class="fa fa-caret-down" aria-hidden="true">
+                  </i>
+                </a>
+              </a>
+            </li>
+            <li>
+              <a href="#">Pricing
+                <a href="#">
+                  <i class="fa fa-caret-down" aria-hidden="true">
+                  </i>
+                </a>
+              </a></li>
+            <li>
+              <a href="#">
+              Resources
+              <a href="#">
+                <i class="fa fa-caret-down" aria-hidden="true">
+                </i>
+              </a>
+            </a>
+          </li>
+            <li>
+              <a href="#">
+                Partners
+                <a href="#">
+                  <i class="fa fa-caret-down" aria-hidden="true">
+                  </i>
+                </a>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                About
+                <a href="#">
+                  <i class="fa fa-caret-down" aria-hidden="true">
+                  </i>
+                </a>
+              </a>
+            </li>
           </ul>
         </div>
+      </nav>
+
+        <!-- fine menu di navigazione -->
 
         <!-- jumbotron -->
         <div class="jumbotron">
@@ -56,7 +112,10 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
         </div>
+
       </header>
+
+      <!-- fine intestazione -->
 
       <!-- sezione centrale -->
 
@@ -239,18 +298,21 @@
               </p>
             </div>
         </div>
+
       </div>
 
-      <!-- blocco loghi clienti -->
+      <!-- fine box azzurro -->
 
-      <!-- prima colonna - 1° parte -->
+      <!-- box clienti -->
+
+        <!-- prima colonna - 1° parte -->
       <div class="customer-container clearfix">
         <section>
           <h2>64.500</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 
-        <!-- prima colonna - 2° parte -->
+          <!-- prima colonna - 2° parte -->
         <section>
           <h2>Start Growing With HubSpot Today</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -282,46 +344,82 @@
         <div class="footer-container clearfix">
           <div class="footer-column">
             <h3>Increase your Traffic</h3>
+            <ul>
+             <li>
+               <a href="#">Find New Prospect</a>
+             </li>
+             <li>
+               <a href="#">Email Tracking</a>
+             </li>
+             <li>
+               <a href="#">Sales Email Templates</a>
+             </li>
+             <li>
+               <a href="#">Click to Call Your Leads</a>
+             </li>
+             <li><a href="#">Email Marketing</a>
+             </li>
+           </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Connect With Leads</h3>
              <ul>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
+              <li>
+                <a href="#">Find New Prospect</a>
+              </li>
+              <li>
+                <a href="#">Email Tracking</a>
+              </li>
+              <li>
+                <a href="#">Sales Email Templates</a>
+              </li>
+              <li>
+                <a href="#">Click to Call Your Leads</a>
+              </li>
+              <li><a href="#">Email Marketing</a>
+              </li>
             </ul>
           </div>
 
           <div class="footer-column">
-            <h3>Increase your Traffic</h3>
-             <ul>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-            </ul>
+            <h3>Close and Manage Leads</h3>
+            <ul>
+             <li>
+               <a href="#">Find New Prospect</a>
+             </li>
+             <li>
+               <a href="#">Email Tracking</a>
+             </li>
+             <li>
+               <a href="#">Sales Email Templates</a>
+             </li>
+             <li>
+               <a href="#">Click to Call Your Leads</a>
+             </li>
+             <li><a href="#">Email Marketing</a>
+             </li>
+           </ul>
           </div>
 
           <div class="footer-column">
-            <h3>Increase your Traffic</h3>
-             <ul>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-            </ul>
-          </div>
-
-          <div class="footer-column">
-            <h3>Increase your Traffic</h3>
-             <ul>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li>Ad Software</li>
-              <li><a href="#" class="CTA white">Contact Huspot Support</a>
+            <h3>Support and Tools</h3>
+            <ul>
+             <li>
+               <a href="#">Find New Prospect</a>
+             </li>
+             <li>
+               <a href="#">Email Tracking</a>
+             </li>
+             <li>
+               <a href="#">Sales Email Templates</a>
+             </li>
+             <li>
+               <a href="#">Click to Call Your Leads</a>
+             </li>
+             <li><a href="#">Email Marketing</a>
+             </li>
+              <li><a href="#" class="CTA white">Contact Hubspot Support</a>
               </li>
             </ul>
 
@@ -360,37 +458,31 @@
 
         <div class="language">
           <ul>
-           <li>Inglese</li>
-           <li>Francese</li>
-           <li>Tedesco</li>
-           <li>Ad Software</li>
-           <li>Ad Software</li>
+           <li><a href="#">English</a></li>
+           <li><a href="#">Deutsch</a></li>
+           <li><a href="#">日本語</a></li>
+           <li><a href="#">Español</a></li>
+           <li><a href="#">Português</a></li>
+           <li><a href="#">Français</a></li>
          </ul>
         </div>
       </div>
       <div class="sub-footer clearfix">
         <div class="credits">
           <img src="https://www.hubspot.com/hubfs/WBZ-1165%20Global%20Nav%20Redesign/Wordmark-White.svg" alt="Hubspot logo">
-          <h5>Copyright 2019, Hubspot, Inc </h5>
+          <h5>Copyright &copy; 2019, Hubspot, Inc </h5>
           </div>
           <div class="privacy">
             <ul>
-             <li>Legal</li>
-             <li>Privacy</li>
+             <li><a href="#">Legal Stuff</a></li>
+             <li><a href="#">Privacy Policy</a></li>
             </ul>
           </div>
 
-
+        </div>
       </div>
-    </div>
+    </footer>
 
-
-
-
-
-      </footer>
-
-
-
+    <!-- fine piè di pagina -->
   </body>
 </html>
